@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #0f171e;
+    display: flex;
+    position: fixed;
+    top: 0;
+    
+}
+
+.dropdown{
+    display: flex;
+    margin-left: auto;
+}
+
+.img{
+    display: flex;
+    margin: 24px;
+}
+
+.dropdown button{
+    margin: 15px;
+    font-size: 15px;
+    border: none;
+    background:none ;
+    color: #fff;
+    margin-left: -20px;
+    cursor: pointer;
+
+}
+
+.dropdown input{
+    margin: 10px;
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.slider{
+    width: 100%;
+    height: 400px;
+    background-image:url(../images/backgrount1.jpg);
+    margin-top: 70px;
+   
+}
+
+.slider-head{
+    color: #fff;
+    padding: 10px;
+    padding-top: 38px;
+    margin-left: 50px;
+
+}
+
+.slider-head h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.slider-head p{
+    font-size: 21px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.slider-join{
+    width: 250px;
+    height: 65px;
+    background-color: #0f79af;
+    margin-left: 62px;
+    margin-top: 68px;
+    
+}
+
+.slider-join span{
+    justify-content: center;
+    padding: 10px;
+}
+
+.slider-join h3{
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.chanel{
+    width: 100%;
+    height: 450px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.fav-chanel{
+    margin-top: 24px;
+    padding: 0 5% 0 0;
+    width: 50%;
+    margin-left: 30px;
+    
+}
+
+.fav-chanel h1{
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.fav-chanel p{
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgb(49, 49, 49);
+}
+
+.chanel-block{
+    width: 50%;
+
+}
+
+.block{
+    width: 200px;
+    height: 140px;
+    float: left;
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.block img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.block:hover{
+    box-shadow: 0px 0px 20px rgb(75, 75, 75);
+}
+.membership{
+    width: 100%;
+    height: 450px;
+    background-image:url(../images/PRIME_multi-benefit_MAGNET_2X._CB1519820207_.jpg);
+    margin-top: 70px;
+   
+}
+
+.tv-stick{
+    width: 100%;
+    height: 500px;
+    background-image:url(../images/MLP_Template_Image_Left.jpg);
+   
+}
+
+.tv-left{
+    float: right;
+
+}
+
+.watch{
+    width: 100%;
+    height: 400px;
+}
+
+.watch-body{
+    margin-left: 60px;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+}
+
+.watch-content{
+    flex: 0.3;
+    margin-left: 25px;
+    
+
+}
+
+.watch-content h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.watch-content p{
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+    letter-spacing: 2px;
+}
+
+.family{
+    width: 100%;
+    height: 450px;
+    background-image:url(../images/IN-kids-30Jan._CB1517304519_.jpg);
+    margin-top: 70px;
+   
+}
+
+
+.footer{
+    text-align: center;
+    background-color: rgb(41, 40, 40);
+    height:200px;
+    width: 100%;
+  }
+
+.footer img{
+    margin-top: 20px;
+}
+
+.copyright{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.copyright a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #0f79af;
+}
+
+.copyright p{
+    
+    font-size: 17px;
+    color: #fff;
+}
